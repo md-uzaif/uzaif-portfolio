@@ -1,0 +1,70 @@
+{
+  "name": "uzaif-portfolio",
+  "version": "1.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "author": {
+    "name": "Uzaif",
+    "email": "uzaifumar17@gmail.com",
+    "url": "https://uzaiftechs.wuaze.com/"
+  },
+  "description": "Backend-focused Java Full Stack Developer portfolio for Uzaif, founder of Uzaif Tech Solutions.",
+  "keywords": [
+    "Uzaif",
+    "Java Full Stack Developer",
+    "Java 8",
+    "Spring Boot",
+    "React",
+    "HTML",
+    "CSS",
+    "WordPress",
+    "Elementor",
+    "Uzaif Tech Solutions",
+    "Digi Help",
+    "REST API",
+    "Microservices",
+    "Spring Security",
+    "JWT",
+    "MySQL",
+    "JPA",
+    "Hibernate",
+    "AWS",
+    "portfolio",
+    "backend"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.6.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.14.0",
+    "next": "^16.2.6",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
+    "react-icons": "^5.6.0",
+    "react-intersection-observer": "^10.0.3",
+    "three": "0.182.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.6",
+    "postcss": "8.5.10",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "postcss": "8.5.10"
+  }
+}
