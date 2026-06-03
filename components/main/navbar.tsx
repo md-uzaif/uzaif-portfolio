@@ -9,18 +9,18 @@ export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className="fixed top-0 z-50 h-[65px] w-full bg-[#03001427] px-10 shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md">
+    <div className="fixed top-0 z-50 h-[65px] w-full bg-[#03001427] px-4 shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md sm:px-10">
       <div className="m-auto flex h-full w-full items-center justify-between px-2.5">
-        <Link href="#about-me" className="flex items-center">
+        <Link href="#about-me" className="flex items-center gap-2.5">
           <Image
             src="/icon1.png"
             alt="Uzaif portfolio logo"
-            width={70}
-            height={70}
+            width={56}
+            height={56}
             draggable={false}
-            className="cursor-pointer"
+            className="h-12 w-12 cursor-pointer object-contain md:h-14 md:w-14"
           />
-          <div className="ml-2.5 hidden font-bold text-gray-300 md:flex">
+          <div className="hidden font-bold text-gray-300 md:flex">
             Uzaif
           </div>
         </Link>

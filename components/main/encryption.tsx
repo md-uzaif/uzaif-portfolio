@@ -7,7 +7,7 @@ import { slideInFromTop } from "@/lib/motion";
 
 export const Encryption = () => {
   return (
-    <div className="relative flex h-[420px] w-full flex-row items-center justify-center overflow-hidden -z-20 md:h-[500px]">
+    <div className="relative isolate flex h-[420px] w-full flex-row items-center justify-center overflow-hidden md:h-[500px]">
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
@@ -51,14 +51,14 @@ export const Encryption = () => {
         </div>
       </div>
 
-      <div className="w-full flex items-start justify-center absolute">
+      <div className="pointer-events-none absolute inset-0 -z-10 flex items-center justify-center">
         <video
           loop
           muted
           autoPlay
           playsInline
-          preload="none"
-          className="w-full h-auto"
+          preload="metadata"
+          className="h-full w-full object-cover"
         >
           <source src="/videos/encryption-bg.webm" type="video/webm" />
         </video>
