@@ -8,8 +8,8 @@ import {
   FaLock,
   FaReact,
   FaTools,
-  FaWhatsapp,
 } from "react-icons/fa";
+import { FaThreads } from "react-icons/fa6";
 
 import { RxLinkedinLogo, RxTwitterLogo } from "react-icons/rx";
 import { SiSpringboot } from "react-icons/si";
@@ -275,8 +275,8 @@ export const SOCIALS = [
     link: "https://x.com/umar_uzaif",
   },
   {
-    name: "WhatsApp",
-    icon: FaWhatsapp,
+    name: "Threads",
+    icon: FaThreads,
     link: "https://www.threads.com/@the_uzaif",
   },
   {
@@ -331,8 +331,8 @@ export const FOOTER_DATA = [
         link: "mailto:uzaifumar17@gmail.com",
       },
       {
-        name: "WhatsApp",
-        icon: FaWhatsapp,
+        name: "Threads",
+        icon: FaThreads,
         link: "https://www.threads.com/@the_uzaif",
       },
       {
