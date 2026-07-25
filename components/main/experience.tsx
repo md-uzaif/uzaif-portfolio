@@ -69,7 +69,7 @@ export const Experience = () => {
           </div>
 
           <div className="relative z-10 grid gap-7 md:gap-10">
-            {EXPERIENCE_TIMELINE.map((item, index) => (
+            {[...EXPERIENCE_TIMELINE].reverse().map((item, index) => (
               <TimelineItem
                 key={`${item.title}-${item.year}`}
                 index={index}
